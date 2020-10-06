@@ -1,0 +1,94 @@
+/*Variables*/
+/* Body */
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #cc3;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	margin-top: 3em;
+}
+
+.container .main-header {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	font-size: 32px;
+	color: #25a49e;
+}
+
+.container .links {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.container .links a {
+	display: block;
+	background-color: #5cf2cf94;
+    margin: 0 33px;
+    color: #044b37;
+}
+
+.container .links a:hover {
+	background-color: #5cf2cf;
+	transform: scale(1.1);
+	transition: .3s;
+	/*box-shadow: 3px 3px 7px #9d9a9a;*/
+}
+
+.container .links .block {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .links .block {
+	text-align: center;
+}
+
+.container .links .block p {
+	/*font-weight: bold;*/
+}
+
+.container .links .block img {
+	width: 100%;
+	height: auto;
+}
+
+.back-button {
+	text-align: end;
+	margin: 2em 3em;
+}
+
+.back-button a {
+	text-decoration: none;
+	background-color: #3cc;
+	color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+/*Medical form */
+#section-form {
+  margin: 0 3em;
+  padding: 2em 3em;
+  border: 1px solid #cc3;
+}
+
+#section-form h4.title {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+hr.dotted {
+  border-top: 1.5px dotted #000;
+}
+
+/*# sourceMappingURL=style.css.map */
