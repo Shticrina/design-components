@@ -26,7 +26,7 @@
 
                 <hr class="dotted">
 
-                <div class="row flex-column informations">
+                <div class="row flex-column informations w-50">
                     <h4 class="title">Name</h4>
 
                     <div class="row">
@@ -42,11 +42,10 @@
                     </div>
                 </div>
 
-                <div class="row margin-top-15 margin-bottom-30 justify-between">
-                    <div class="gender">
+                <div class="row margin-top-15 margin-bottom-30">
+                    <div class="gender w-50 margin-right-25">
                         <h4 class="title">Gender</h4>
 
-                        <!-- <label for="gender">Gender</label> -->
                         <select id="gender" name="gender">
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -54,7 +53,7 @@
                         </select>
                     </div>
 
-                    <div class="birth">
+                    <div class="birth w-50">
                         <h4 class="title">Date of Birth</h4>
                         <input type="date" id="birthday" name="birthday">
                     </div>
@@ -65,7 +64,7 @@
                 <h3>Emergency contact</h3>
 
                 <div class="row margin-top-15 margin-bottom-20">
-                    <div class="informations">
+                    <div class="informations w-50 margin-right-25">
                         <h4 class="title">Name</h4>
 
                         <div class="row">
@@ -81,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="relationship">
+                    <div class="relationship w-50">
                         <h4 class="title">Relationship</h4>
                         <input type="text" class="" id="relationship">
                     </div>
@@ -99,11 +98,77 @@
                     <label for="street_address">Address Line 2</label>
                 </div>
 
-                <div class="row"></div>
+                <div class="row margin-bottom-15">
+                    <div class="city w-50 margin-right-25">
+                        <div class="row flex-column">
+                            <input type="text" id="city">
+                            <label for="city">City</label>
+                        </div>
+                    </div>
 
-                <div class="row"></div>
+                    <div class="state w-50">
+                        <div class="row flex-column">
+                            <input type="text" id="state">
+                            <label for="state">State / Province / Region</label>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="row"></div>
+                <div class="row margin-bottom-15">
+                    <div class="zip w-50 margin-right-25">
+                        <div class="row flex-column">
+                            <input type="text" id="zip">
+                            <label for="zip">Postal / Zip Code</label>
+                        </div>
+                    </div>
+
+                    <div class="country w-50">
+                        <div class="row flex-column">
+                            <select id="country" name="country">
+                                <option value=""></option>
+                                <option value="USA">USA</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Mozambique">Mozambique</option>
+                            </select>
+                            <label for="country">Country</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row margin-bottom-15">
+                    <div class="phone w-50 margin-right-25">
+                        <h4 class="title">Home phone</h4>
+
+                        <div class="row">
+                            <div class="size1">
+                                <input type="text" id="home_phone" class="w-100">
+                                <legend class="">###</legend>
+                            </div>
+
+                            <div><span>-</span></div>
+
+                            <div class="size1">
+                                <input type="text" id="" class="w-100">
+                                <legend class="">###</legend>
+                            </div>
+
+                            <div><span>-</span></div>
+
+                            <div class="size2">
+                                <input type="text" id="" class="w-100">
+                                <legend class="">####</legend>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phone w-50">
+                            <h4 class="title">Work phone</h4>
+
+                            <input type="text" id="work_phone">
+                            <input type="text" id="">
+                            <input type="text" id="">
+                    </div>
+                </div>
 
                 <hr class="dotted">
 

@@ -19,29 +19,50 @@ a {
 	margin-bottom: 0!important;
 }
 
+.w-7 {
+	width: 7%!important;
+}
+
+.w-12 {
+	width: 12%!important;
+}
+
 .w-10 {
-	width: 10%;
+	width: 10%!important;
+}
+
+.w-25 {
+	width: 25%!important;
 }
 
 .w-50 {
-	width: 50%;
+	width: 50%!important;
 }
 
 .w-75 {
-	width: 75%;
+	width: 75%!important;
 }
 
 .w-100 {
-	width: 100%;
+	width: 100%!important;
 }
 
 .flex-column {
-	flex-direction: column;
+	flex-direction: column!important;
 	/*margin: 15px 0;*/
 }
 
-.justify-between {
-	justify-content: space-between;
+.same-width {
+    -ms-flex: 1 1 auto!important;
+    flex: 1 1 auto!important;
+}
+
+.space-between {
+	justify-content: space-between!important;
+}
+
+.margin-right-25 {
+	margin-right: 25px;
 }
 
 .margin-top-15 {
@@ -155,12 +176,12 @@ label {
 }
 
 #section-form .gender {
-	margin-right: 20px;
-	width: 50%;
+	/*margin-right: 20px;*/
+	/*width: 50%;*/
 }
 
 #section-form .birth {
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #section-form .gender select {
@@ -168,16 +189,35 @@ label {
 }
 
 #section-form .informations {
-	margin-right: 20px;
-	width: 50%;
+	/*margin-right: 20px;*/
+	/*width: 50%;*/
 }
 
 #section-form .relationship {
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #section-form .relationship input#relationship {
 	width: 100%;
+}
+
+#section-form .phone p {
+	margin: 0;
+	text-align: center;
+}
+
+#section-form .phone legend {
+	margin: 0;
+	text-align: center;
+}
+
+#section-form .phone .size1 {
+    width: 8%;
+    margin-right: 15px;
+}
+
+#section-form .phone .size2 {
+    width: 12%;
 }
 
 /*# sourceMappingURL=style.css.map */
