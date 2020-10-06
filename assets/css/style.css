@@ -1,13 +1,63 @@
 /*Variables*/
 /* Body */
 body {
-  margin: 0;
-  font-family: "Raleway", sans-serif;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
 }
 
 a {
 	text-decoration: none;
 	color: #cc3;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.mb-0 {
+	margin-bottom: 0!important;
+}
+
+.w-10 {
+	width: 10%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.flex-column {
+	flex-direction: column;
+	/*margin: 15px 0;*/
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
 }
 
 .container {
@@ -41,7 +91,6 @@ a {
 	background-color: #5cf2cf;
 	transform: scale(1.1);
 	transition: .3s;
-	/*box-shadow: 3px 3px 7px #9d9a9a;*/
 }
 
 .container .links .block {
@@ -58,7 +107,6 @@ a {
 }
 
 .container .links .block img {
-	width: 100%;
 	height: auto;
 }
 
@@ -75,20 +123,61 @@ a {
     border-radius: 5px;
 }
 
-/*Medical form */
+/***************************************** Medical form *****************************************/
 #section-form {
-  margin: 0 3em;
-  padding: 2em 3em;
-  border: 1px solid #cc3;
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0 8em;
+	padding: 2em 3em;
+	border: 1px solid #cc3;
+}
+
+#section-form form .input-block {
+	display: flex;
+	flex-direction: column;
+}
+
+#section-form form .input-block.block1 {
+	margin-right: 10px;
+	width: 25%;
 }
 
 #section-form h4.title {
-  margin-bottom: 5px;
-  font-weight: 700;
+	margin: 5px 0;
 }
 
 hr.dotted {
-  border-top: 1.5px dotted #000;
+	border-top: 1.5px dotted #000;
+	margin: 20px 0;
+}
+
+label {
+	font-size: 13px;
+}
+
+#section-form .gender {
+	margin-right: 20px;
+	width: 50%;
+}
+
+#section-form .birth {
+	width: 50%;
+}
+
+#section-form .gender select {
+	width: 100%;
+}
+
+#section-form .informations {
+	margin-right: 20px;
+	width: 50%;
+}
+
+#section-form .relationship {
+	width: 50%;
+}
+
+#section-form .relationship input#relationship {
+	width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

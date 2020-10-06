@@ -19,18 +19,103 @@
 
     <body>
         <p class="back-button"><a href="../index.html">Back</a></p>
-        
+
         <section id="section-form">
-            <h3 class="">Emergency Contact And Medical Information</h3>
-            <hr class="dotted">
-
             <form action="" id="medical-form">
-                <h4 class="title">Name</h4>
+                <h2 class="">Emergency Contact and Medical Information</h2>
 
-                <input type="text" class="" id="first_name">
-                <input type="text" class="" id="last_name">
-                <label for="first_name">First</label>
-                <label for="last_name">Last</label>
+                <hr class="dotted">
+
+                <div class="row flex-column informations">
+                    <h4 class="title">Name</h4>
+
+                    <div class="row">
+                        <div class="input-block block1">
+                            <input type="text" class="" id="first_name">
+                            <label for="first_name">First</label>
+                        </div>
+
+                        <div class="input-block">
+                            <input type="text" class="" id="last_name">
+                            <label for="last_name">Last</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row margin-top-15 margin-bottom-30 justify-between">
+                    <div class="gender">
+                        <h4 class="title">Gender</h4>
+
+                        <!-- <label for="gender">Gender</label> -->
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="birth">
+                        <h4 class="title">Date of Birth</h4>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                </div>
+
+                <hr class="dotted">
+
+                <h3>Emergency contact</h3>
+
+                <div class="row margin-top-15 margin-bottom-20">
+                    <div class="informations">
+                        <h4 class="title">Name</h4>
+
+                        <div class="row">
+                            <div class="input-block block1">
+                                <input type="text" class="" id="first_name">
+                                <label for="first_name">First</label>
+                            </div>
+
+                            <div class="input-block">
+                                <input type="text" class="" id="last_name">
+                                <label for="last_name">Last</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relationship">
+                        <h4 class="title">Relationship</h4>
+                        <input type="text" class="" id="relationship">
+                    </div>
+                </div>
+
+                <h4 class="title">Address</h4>
+
+                <div class="row flex-column margin-bottom-15">
+                    <input type="text" name="street-address" id="street_address">
+                    <label for="street_address">Street Address</label>
+                </div>
+
+                <div class="row flex-column margin-bottom-15">
+                    <input type="text" name="street-address" id="street_address">
+                    <label for="street_address">Address Line 2</label>
+                </div>
+
+                <div class="row"></div>
+
+                <div class="row"></div>
+
+                <div class="row"></div>
+
+                <hr class="dotted">
+
+                <h3>Medical information</h3>
+
+                <div class="row"></div>
+
+                <div class="row"></div>
+
+                <div class="row"></div>
+
+                <div class="row"></div>
             </form>
         </section>
     </body>
